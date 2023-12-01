@@ -4,13 +4,18 @@
 }
 
 body {
+    background: linear-gradient(159.02deg,
+            rgb(15, 18, 59) 14.25%,
+            rgb(9, 13, 46) 56.45%,
+            rgb(2, 5, 21) 86.14%) center center / cover no-repeat;
+    height: 100%;
     overflow: hidden;
 }
 
 .topbar {
     width: 100%;
     height: 75px;
-    background-color: rgb(241, 11, 11);
+    background: inherit;
     display: flex;
     align-items: center;
 }
@@ -24,11 +29,11 @@ body {
 }
 
 .logo {
-    font-size: 25px;
+    font-size: 45px;
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 44px;
     margin-left: 20px;
 }
 
@@ -42,7 +47,7 @@ h1 {
 .topbar-search {
     width: 50%;
     height: 54px;
-    background-color: whitesmoke;
+    background-color: rgb(255, 0, 0);
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -54,7 +59,7 @@ h1 {
 
 .topbar-search input {
     border: 0;
-    background-color: whitesmoke;
+    background-color: rgb(255, 0, 0) ;
     width: 70%;
     color: black;
 }
@@ -91,7 +96,7 @@ h1 {
 .menu {
     width: 200px;
     height: calc(100vh - 50px);
-    background-color: rgb(31, 217, 10);
+    background: inherit;
     position: absolute;
     top: 75px;
     right: -250px;
@@ -186,4 +191,11 @@ h1 {
 
 .line-container.active .line-3 {
     transform: rotate(-45deg);
+}
+
+.body_content_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
