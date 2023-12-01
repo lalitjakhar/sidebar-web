@@ -32,7 +32,11 @@ body {
     font-size: 45px;
 }
 
-h1 {
+h1{
+    font-size: 4rem;
+}
+
+h2 {
     font-size: 44px;
     margin-left: 20px;
 }
@@ -95,7 +99,7 @@ h1 {
 
 .menu {
     width: 200px;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 75px);
     background: inherit;
     position: absolute;
     top: 75px;
@@ -198,4 +202,5 @@ h1 {
     justify-content: center;
     align-items: center;
     height: 100%;
+    flex-direction: column;
 }
